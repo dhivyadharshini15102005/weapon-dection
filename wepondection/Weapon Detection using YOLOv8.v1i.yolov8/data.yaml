@@ -1,0 +1,14 @@
+train: C:/Users/rajar/OneDrive/Desktop/wepondection/Weapon Detection using YOLOv8.v1i.yolov8/train/images
+val: C:/Users/rajar/OneDrive/Desktop/wepondection/Weapon Detection using YOLOv8.v1i.yolov8/valid/images
+test: C:/Users/rajar/OneDrive/Desktop/wepondection/Weapon Detection using YOLOv8.v1i.yolov8/test/images
+
+nc: 7
+names: ['Handgun', 'Knife', 'Missile', 'Rifle', 'Shotgun', 'Sword', 'Tank']
+
+roboflow:
+  workspace: dhivya-1yjlf
+  project: weapon-detection-using-yolov8-o0jah-q02qz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dhivya-1yjlf/weapon-detection-using-yolov8-o0jah-q02qz/dataset/1
+ 
